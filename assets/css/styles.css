@@ -8,10 +8,10 @@
 */
 /* ======= Base ======= */
 body {
-  font-family: 'Oxygen',sans-serif;
+  font-family: 'Poppins',sans-serif;
   color: #434343;
   background:  #f5f5f5;
-  font-size: 16px;
+  font-size: 15px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -21,12 +21,12 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poly', sans-serif;
   font-weight: 700;
   color: #778492;
 }
 a {
-  color: #3AAA64;
+  color: #434343;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -46,7 +46,7 @@ a.btn {
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
-  font-family: 'Montserrat', arial, sans-serif;
+  font-family: 'Poly', arial, sans-serif;
   padding: 8px 16px;
   font-weight: bold;
 }
@@ -90,7 +90,7 @@ a.btn-cta-secondary:hover,
   color: #32383e;
 }
 .label-theme {
-  background: #3AAA64;
+  background: #434343;
   font-size: 12px;
 }
 a.dotted-link {
@@ -101,30 +101,13 @@ a.dotted-link:hover {
   text-decoration: none;
   color: #49515a;
 }
-/*
-iframe {
 
-    .header {
-        padding: 0;
-    }
-}
-
-.iframe-wrapper {
-    overflow: auto;
-    -webkit-overflow-scrolling:touch;
-}
-*/
-/* ======= Header ======= */
 .header {
 	
     background: #fff;
     border-bottom: 4px solid #33a4c9;
     padding: 19px 0;
     overflow: hidden;
-	
- /* padding: 30px 0;
-  background: #f5f5f5;
-  border-top: 10px solid #778492;*/
 }
 .header .btn {
   margin-top: 60px;
@@ -135,15 +118,15 @@ iframe {
 }
 .header .profile-content .name {
   color: #49515a;
-  font-size: 38px;
+  font-size: 34px;
   margin-bottom: 5px;
   margin-top: 30px;
 }
 .header .profile-content .desc {
   color: #778492;
-  font-family: "Lato", arial, sans-serif;
+  font-family: "Poly", arial, sans-serif;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 22px;
   margin-top: 0;
   margin-bottom: 15px;
 }
@@ -164,7 +147,7 @@ iframe {
   text-align: center;
 }
 .header .profile-content .social a:hover {
-  background: #b0b7bf;
+   background: #b0b7bf;
 }
 .header .profile-content .social a .fa {
   font-size: 20px;
@@ -177,7 +160,7 @@ iframe {
     background: #fff;
 }
 .section {
-  margin-bottom: -10px;
+  margin-bottom: 20px;
 }
 .section .section-inner {
   background: #fff;
@@ -186,9 +169,9 @@ iframe {
 }
 .section .heading {
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   color: #545e69;
-  font-size: 24px;
+  font-size: 22px;
 }
 .section .content .more-link .fa {
   margin-right: 5px;
@@ -243,7 +226,7 @@ iframe {
   position: relative;
 }
 .latest .featured-image .text {
-  background: #3AAA64;
+  background: #434343;
   color: #fff;
 }
 .latest .featured-image .ribbon {
@@ -255,7 +238,7 @@ iframe {
   overflow: hidden;
 }
 .latest .featured-image .ribbon .text {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poly', sans-serif;
   position: relative;
   left: -8px;
   top: 18px;
@@ -362,7 +345,7 @@ iframe {
   color: #ccd1d6;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Lato", arial, sans-serif;
+  font-family: "Poly", arial, sans-serif;
   position: absolute;
   right: 0;
   top: 0;
@@ -389,7 +372,7 @@ iframe {
   margin-top: 0;
 }
 .education .item .university {
-  font-family: "Lato", arial, sans-serif;
+  font-family: "Poly", arial, sans-serif;
   font-size: 13px;
   color: #999;
   font-weight: 600;
